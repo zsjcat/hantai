@@ -1,0 +1,335 @@
+html{
+    font-family: 宋体, cursive;
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+div{
+    display: block;
+}
+ul{
+    list-style: none;
+}
+/*导航*/
+.navbar{
+    height: 96px;
+    background-color: #fff;
+    margin-bottom:0;
+}
+.navbar-nav{
+    margin-top:35px;
+}
+.navbar-header{
+    height: 90px;
+    margin-top: 5px;
+}
+.navbar-collapse ul{
+    margin-left: 40px;
+}
+@media (max-width: 768px) {
+    .navbar-collapse ul{
+        left: -41px;
+        background-color: white;
+        position: absolute;
+        width: 102%;
+        top: 58px;
+        z-index: 9999;
+    }
+}
+.navbar-collapse ul li{
+    margin-left: 36px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #e83d29;
+    background-color: transparent;
+}
+.language{
+    position: absolute;
+    right: 15%;
+    top: 10px;
+}
+.language img{
+    margin-right: 10px;
+}
+.glyphicon-search{
+    color: black;
+}
+
+
+/*banner*/
+#banner{
+    text-align:center;
+    color: white;
+    position: relative;
+}
+
+.banner-tips{
+    position: absolute;
+    font-weight: bold;
+    top:35%;
+    left: 45%;
+}
+.guanyu{
+    font-size:20px;
+}
+@media (max-width: 768px) {
+    .guanyu{
+        font-size:16px;
+    }
+    .banner-tips{
+        position: absolute;
+        font-weight: bold;
+        top:25%;
+        left: 45%;
+    }
+}
+
+/*title*/
+#title{
+    background-color: #eee;
+}
+.nav-pills li a{
+    color: #333333;
+}
+.nav-pills li a:hover{
+    color: #083a83;
+}
+.nav-pills>li.active>a{
+    color: white;
+    background-color: #083a83;
+}
+.nav-pills>li>a {
+    border-radius: 0;
+}
+.nav-pills>li+li {
+    margin-left: 30px;
+}
+.title-right{
+    padding-top: 10px;
+}
+.title-right a{
+    color: #333;
+    text-decoration: none;
+}
+.title-right a:hover{
+    color: #e83d29;
+}
+.glyphicon-chevron-right{
+    font-size: 10px;
+}
+
+/*main*/
+#main{
+    margin-top: 40px;
+    padding: 0 10px;
+}
+#main>p{
+    font-size: 24px;
+}
+
+
+
+/*nav-year*/
+#year-nav{
+    margin-bottom: 5%;
+}
+#year-nav .col-sm-2{
+    padding: 0;
+}
+.nav-year.active{
+    background-color: #e83d29;
+}
+.nav-year.active a{
+   color: white;
+}
+.nav-year a{
+    text-decoration: none;
+}
+.nav-year:hover a{
+    color: white;
+}
+.nav-year:hover{
+    background-color: #e83d29;
+}
+.nav-year{
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+
+/*lunbo*/
+#history .item .pull-right p,
+#history1 .item .pull-right p,
+#history2 .item .pull-right p,
+#history3 .item .pull-right p,
+#history4 .item .pull-right p,
+#history5 .item .pull-right p
+{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#history .item .pull-right,
+#history1 .item .pull-right,
+#history2 .item .pull-right,
+#history3 .item .pull-right,
+#history4 .item .pull-right,
+#history5 .item .pull-right
+{
+    padding-top: 30px;
+}
+.glyphicon-menu-right,.glyphicon-menu-left{
+    border-radius: 50%;
+    border: 2px solid #083a80;
+    padding: 10px 10px;
+}
+.carousel-inner{
+    padding: 0 60px;
+}
+@media (max-width: 1200px) {
+    .carousel-inner .item .pull-left{
+        width: 100%;
+    }
+    .carousel-inner .item .pull-right{
+        width: 100%;
+    }
+}
+.carousel-inner .item .pull-left span{
+    font-size: 13px;
+}
+.carousel-inner .item .pull-left p{
+    font-size: 40px;
+    color:#083a80 ;
+    padding: 0;
+    margin: 0;
+}
+.carousel-inner .item .pull-left p sub{
+    margin-left: 20px;
+}
+.carousel-control.right,.carousel-control.left,
+.carousel-control.right1,.carousel-control.left1,
+.carousel-control.right2,.carousel-control.left2,
+.carousel-control.right3,.carousel-control.left3,
+.carousel-control.right4,.carousel-control.left4,
+.carousel-control.right5,.carousel-control.left5{
+    color: #083a80;
+    background-image: none;
+}
+#contorl-right .glyphicon,
+#contorl-right1 .glyphicon,
+#contorl-right2 .glyphicon,
+#contorl-right3 .glyphicon,
+#contorl-right4 .glyphicon,
+#contorl-right5 .glyphicon
+{
+    top:35%;
+    left: 35%;
+}
+#contorl-left .glyphicon,
+#contorl-left1 .glyphicon,
+#contorl-left2 .glyphicon,
+#contorl-left3 .glyphicon,
+#contorl-left4 .glyphicon,
+#contorl-left5 .glyphicon{
+    top:35%;
+    right: 35%;
+}
+.carousel-control:hover{
+    color: #083a80;
+}
+
+.tab-content{
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*脚注*/
+
+.foot{
+    background-color: #f2f2f2;
+    padding-top: 40px;
+}
+.foot a{
+    text-decoration: none;
+}
+.foot a:hover{
+    color:#e83d29 ;
+}
+.foot p{
+    color: #333;
+}
+.foot ul a{
+    color: #333;
+    text-decoration: none;
+}
+.foot ul li{
+    line-height:28px;
+}
+.form-group{
+    width: 100%;
+}
+.form-inline button,.form-inline input{
+    margin-top: 20px;
+}
+.form-inline .btn{
+    background-color: #e83d29;
+    color: white;
+    width: auto;
+}
+.icon-my{
+    margin-top: 10px;
+}
+.last{
+    background-color: #cfcfcf;
+    padding: 0 120px;
+    margin-top: 80px;
+}
+.last span{
+    float: right;
+}
+@media (max-width: 768px) {
+    .last{
+        background-color: #cfcfcf;
+        padding:60px;
+        text-align: center;
+        margin-top: 80px;
+    }
+    .last span{
+        float: none;
+    }
+}
+.last>p>span>a{
+    color: #333;
+}
+.last p{
+    border-top:1px solid #e3e3e3;
+    line-height: 50px;
+    margin-left: -5px;
+    margin-bottom: 0;
+}
